@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: burlywood;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: azure;
+    height: 100%;
+}
+
+.logo {
+    height: 100px;
+    background-color: bisque;
+}
+
+.peatekst {
+    padding: 16px;
+}
