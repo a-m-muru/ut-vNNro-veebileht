@@ -16,6 +16,15 @@ main {
     height: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 32px;
+}
+
+p {
+    padding-bottom: 16px;
+    line-height: 24px;
+}
+
 .logo {
     height: 100px;
     background-color: bisque;
