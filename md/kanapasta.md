@@ -1,4 +1,4 @@
-#### Kanapasta
+## Kanapasta
 
 ### Koostisosad
 - Kana

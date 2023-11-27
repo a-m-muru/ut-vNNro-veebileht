@@ -20,6 +20,15 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 32px;
 }
 
+ul  {
+    padding-left: 22px;
+    margin-bottom: 16px;
+}
+
+li {
+    padding-bottom: 8px;
+}
+
 p {
     padding-bottom: 16px;
     line-height: 24px;
