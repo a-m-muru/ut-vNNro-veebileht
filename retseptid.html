@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="src/retseptid.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
-    <h1>MMM maitsev</h1>
-    <p>Siia tulevad igast lahedad asjad ;P</p>
+    <main>
+        <div class="logo"></div>
+        <div class="konteiner">
+            <div class="retseptinimekiri" id="retseptinimekiri">
+                <ul>
+                    <li onclick="kuva_retsept('kanapasta')">kanapasta</li>
+                    <li onclick="kuva_retsept('naide')">naide</li>
+                </ul>
+            </div>
+            <div class="tekstikonteiner">
+                <div class="peatekst">
+                    <h1>MMM maitsev</h1>
+                    <p>Siia tulevad igast lahedad asjad ;P</p>
+                </div>
+                <div class="peatekst" id="retseptipesa">
+                    <!-- siia tuleb retsept -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- skript laetakse siin, et muud lehe elemendid oleks initsialiseeritud -->
+    <script src="src/retseptid.js"></script>
 </body>
 </html>

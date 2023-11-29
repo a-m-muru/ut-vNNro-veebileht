@@ -1,0 +1,59 @@
+main {
+    width: 60%;
+}
+
+.konteiner {
+    display: flex;
+    flex-direction: row;
+}
+
+.tekstikonteiner {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.peatekst {
+    flex: 5;
+    flex-direction: column;
+}
+
+.retseptinimekiri {
+    background-color: blanchedalmond;
+    padding: 16px;
+    flex: 1;
+    flex-direction: row;
+}
+
+.retseptinimekiri > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.retseptinimekiri > ul > li {
+    background-color: white;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.retseptinimekiri > ul > li:hover {
+    background-color: yellow;
+}
+
+#retseptipesa {
+    background-color: honeydew;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+
+    .konteiner {
+        flex-direction: column;
+    }
+}

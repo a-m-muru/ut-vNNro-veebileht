@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+</head>
+<body id="body">
+    <p>Tere</p>
+    <script>
+        const body = document.getElementById("body");
+        let converter = new showdown.Converter();
+        let text = `
+# tere
+minu nimi on
+mart
+
+tšau
+`;
+        let html = converter.makeHtml(text);
+        body.insertAdjacentHTML("beforeend", html);
+    </script>
+</body>
+</html>
