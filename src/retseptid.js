@@ -1,4 +1,6 @@
 
+// skripti autor A M Muru
+
 // retseptid lisatakse retseptipessa
 const retseptipesa = document.getElementById("retseptipesa");
 console.log(retseptipesa);
@@ -10,6 +12,7 @@ const retseptid = [
 ]
 
 // abi: https://stackoverflow.com/questions/196498/how-do-i-load-the-contents-of-a-text-file-into-a-javascript-variable
+// Edward Z Yang ja Pharaoah Jardin
 async function lae_retsept(nimi) {
     try {
         // retseptid laetakse /md/-kaustast
