@@ -9,7 +9,8 @@
 - Sibul
 - Köömned 
 - Tšilli 
-- Paprika maitseaine 
+- Paprika maitseaine
+- Riis 
 
 ### Valmistamine
 - Keeda riis vastavalt juhistele
