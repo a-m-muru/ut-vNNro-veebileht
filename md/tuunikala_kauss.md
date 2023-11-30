@@ -11,6 +11,8 @@
 - Sojakaste
 - Sriracha kaste
 
+![Alt text](../pildid/Tuunikalakauss.jpg)
+
 ### Valmistamine
 - Keeda riis vastavalt pakil olevatele juhistele
 - Prae pannil rohelised oad koos küüslauguga, maitsesta soolaga
@@ -20,4 +22,3 @@
 - Siin võid asendada tuunikala näiteks lõhega ning lisandeid saab ka ise juurde mõelda näiteks kimchi või brokkoli
 
 
-![Alt text](../pildid/Tuunikalakauss.jpg)
