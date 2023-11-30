@@ -24,6 +24,7 @@ const sildid = {};
 const sildid_ar = [];
 const valitud_sildid = [];
 
+// kasulik, tagastab true, kui kahes nimekirjas on võrdseid elemente
 function on_sarnaseid_elemente(list1, list2) {
     for (let i = 0; i < list1.length; i++) {
         for (let j = 0; j < list2.length; j++) {
@@ -94,11 +95,13 @@ async function lae_sildid() {
 
 function klops_sildil(elem) {
     const silt = elem.innerText;
+    // silte saab sisse ja välja lülitada
     elem.classList.toggle("vajutatud");
     const sees = elem.classList.contains("vajutatud");
     if (sees) {
         valitud_sildid.push(silt);
     } else {
+        // siltide eemaldamine valitud siltide nimekirjast
         valitud_sildid.splice(valitud_sildid.indexOf(silt), 1);
     }
     lae_retseptide_nupud()
@@ -114,7 +117,9 @@ function lae_retseptide_nupud() {
     if (valitud_sildid.length < 1) return;
     retseptid.forEach(retsept => {
         let retsepti_id = retsept.replaceAll("_", " ");
-        if (!sildid.hasOwnProperty(retsepti_id)) console.log("appi ", retsepti_id, sildid)
+        // kui retseptil pole silte siis tõsta kisa
+        if (!sildid.hasOwnProperty(retsepti_id)) console.error("appi ", retsepti_id, sildid)
+        // kui ükskõik milline retsepti silt on valitud siltide hulgas, siis kuva retsepti nupp
         if (on_sarnaseid_elemente(sildid[retsepti_id], valitud_sildid)) {
             nk.insertAdjacentHTML(
                 "beforeend",
@@ -129,5 +134,5 @@ console.log(sildid)
 
 lae_retseptide_nupud();
 
-// testimine
+// algne retsept
 retsept_pessa(lae_retsept("kanapasta"))
