@@ -9,6 +9,8 @@
 - 4 muna 
 - Piim 
 
+![Alt text](../pildid/K%C3%B6%C3%B6giviljapirukas.jpeg)
+
 ### Valmistamine
 - Piruka põhjaks küpseta taigen vastavalt juhistele
 - Prae pannil sibul kuni see on kergelt pruun ning lisa köögiviljad, maitsesta soola ja pipraga
@@ -17,4 +19,4 @@
 - Raputa peale riivjuust
 - Küpseta kuni tainas on kergelt pruun ja kerkinud ning muna on hüübinud
 
-![Alt text](../pildid/K%C3%B6%C3%B6giviljapirukas.jpeg)
+

@@ -12,6 +12,8 @@
 - Paprika maitseaine
 - Riis 
 
+![Alt text](../pildid/Chiliconcarne.jpg)
+
 ### Valmistamine
 - Keeda riis vastavalt juhistele
 - Prae pannil sibul ja küüslauk
@@ -20,4 +22,3 @@
 - Lisa kastmesse natuke ketšupit magususe jaoks
 - Serveeri koos riisiga
 
-![Alt text](../pildid/Chiliconcarne.jpg)

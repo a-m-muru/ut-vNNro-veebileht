@@ -7,6 +7,8 @@
 - Tšilli 
 - Küüslauk 
 
+![Alt text](../pildid/Tuunikalapasta.jpg)
+
 ### Valmistamine
 - Keeda spagetid vastavalt pakil olevatele juhistele
 - Madalal kuumusel lisa pannile õli ning prae selles tšilli ja küüslauk
@@ -15,4 +17,3 @@
 - Maitsesta soola ja pipraga
 - Serveeri koos parmesaniga
 
-![Alt text](../pildid/Tuunikalapasta.jpg)
