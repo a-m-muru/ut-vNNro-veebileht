@@ -1,1 +1,3 @@
 kanapasta,kana,pasta
+tuunikala pasta,tuunikala,pasta
+tuunikala kauss,tuunikala,riis,muna
