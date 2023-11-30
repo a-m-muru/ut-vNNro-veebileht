@@ -2,8 +2,9 @@ main {
     width: 70%;
 }
 
-img {
-    width: 60%;
+#retseptipesa > p > img, #retseptipesa > img {
+    width: 30%;
+    display: inline;
 }
 
 .konteiner {
@@ -22,20 +23,51 @@ img {
 }
 
 .peatekst {
-    flex: 5;
+    flex: 1;
     flex-direction: column;
+    background-color: var(--heleroheline);
 }
 
 .sildid {
-    flex: 4;
-    background-color: blanchedalmond;
-    margin: 8px;
+    flex: 2;
+    background-color: var(--kollaroheline);
     display: flex;
     flex-wrap: wrap;
 }
 
+.sildid-pealkiri {
+    width: 100%;
+    background-color: var(--heleroheline);
+    padding: 2px;
+}
+
+.silt {
+    font-size: 0.5rem;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    padding-top: 10px;
+    border: 2px solid var(--tumeroheline);
+    background-color: var(--tumeroheline);
+    width: 80px;
+    height: 20px;
+}
+
+.silt:hover {
+    background-color:beige;
+    cursor: pointer;
+}
+
+.silt.vajutatud {
+    background-color: var(--hele);
+}
+
+.silt.vajutatud:hover {
+    background-color: white;
+}
+
 .retseptinimekiri {
-    background-color: blanchedalmond;
+    background-color: var(--kollaroheline);
     padding: 16px;
     flex: 1;
     flex-direction: row;
@@ -47,7 +79,8 @@ img {
 }
 
 .retseptinimekiri > ul > li {
-    background-color: white;
+    background-color: var(--hele);
+    border: 2px solid var(--tumeroheline);
     margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
@@ -57,11 +90,11 @@ img {
 }
 
 .retseptinimekiri > ul > li:hover {
-    background-color: yellow;
+    background-color: white;
 }
 
 #retseptipesa {
-    background-color: honeydew;
+    background-color: var(--hele);
 }
 
 @media only screen and (max-width: 600px) {

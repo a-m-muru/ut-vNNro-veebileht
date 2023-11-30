@@ -17,11 +17,20 @@ const retseptid = [
     "tatar_peekoniga",
     "tuunikala_kauss",
     "tuunikala_pasta"
-]
+];
 
 // ja siia sisse sildid
-const sildid = {
+const sildid = {};
+const sildid_ar = [];
+const valitud_sildid = [];
 
+function on_sarnaseid_elemente(list1, list2) {
+    for (let i = 0; i < list1.length; i++) {
+        for (let j = 0; j < list2.length; j++) {
+            if (list1[i] == list2[j]) return true
+        }
+    }
+    return false;
 }
 
 // abi: https://stackoverflow.com/questions/196498/how-do-i-load-the-contents-of-a-text-file-into-a-javascript-variable
@@ -50,18 +59,49 @@ function retsept_pessa(retsept) {
 }
 
 async function lae_sildid() {
+    const siltide_konteiner = document.getElementById("sildid")
     try {
+        // sildid tekstifailist
         const vastus = await fetch("src/sildid.txt");
         const andmed = await vastus.text();
         let loik = andmed.split("\n");
         loik.forEach(rida => {
             let siserida = rida.split(",");
+            // rea esimesel kohal retsepti nimi, edasi selle sildid
             sildid[siserida[0]] = siserida.slice(1, siserida.length)
+            
+            for (let i = 1; i < siserida.length; i++) {
+                let silt = siserida[i];
+                // sildid_ar on üldine siltide nimekiri
+                if (!sildid_ar.includes(silt)) {
+                    sildid_ar.push(silt);
+                }
+            }
         });
     }
     catch (viga) {
         console.error("viga siltide laadimisel: ", viga)
     }
+    // sildid lehele
+    for (let i = 1; i < sildid_ar.length; i++) {
+        let silt = sildid_ar[i];
+        siltide_konteiner.insertAdjacentHTML(
+            "beforeend",
+            `<div class="silt" onclick="klops_sildil(this)">${silt}</div>`
+        );
+    }
+}
+
+function klops_sildil(elem) {
+    const silt = elem.innerText;
+    elem.classList.toggle("vajutatud");
+    const sees = elem.classList.contains("vajutatud");
+    if (sees) {
+        valitud_sildid.push(silt);
+    } else {
+        valitud_sildid.splice(valitud_sildid.indexOf(silt), 1);
+    }
+    lae_retseptide_nupud()
 }
 
 function kuva_retsept(nimi) {
@@ -70,11 +110,17 @@ function kuva_retsept(nimi) {
 
 function lae_retseptide_nupud() {
     nk = document.getElementById("retseptinimekiri");
+    nk.innerHTML = "";
+    if (valitud_sildid.length < 1) return;
     retseptid.forEach(retsept => {
-        nk.insertAdjacentHTML(
-            "beforeend",
-            `<li onclick="kuva_retsept('${retsept}')">${retsept.replaceAll("_", " ")}</li>`
-        )
+        let retsepti_id = retsept.replaceAll("_", " ");
+        if (!sildid.hasOwnProperty(retsepti_id)) console.log("appi ", retsepti_id, sildid)
+        if (on_sarnaseid_elemente(sildid[retsepti_id], valitud_sildid)) {
+            nk.insertAdjacentHTML(
+                "beforeend",
+                `<li onclick="kuva_retsept('${retsept}')">${retsepti_id}</li>`
+            );
+        }
     });
 }
 

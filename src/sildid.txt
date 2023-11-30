@@ -5,6 +5,6 @@ ahjuköögiviljad,taimetoit,lihtne,odav
 maapähklivõi nuudlid,aasiapärane,kiire,taimetoit
 tuunikala kauss,tuunikala,riis,muna,kiire
 tuunikala pasta,tuunikala,pasta,kiire
-chilli con carne,hakkliha,taimetoit,riis,odav,mehhikopärane
+chili con carne,hakkliha,taimetoit,riis,odav,mehhikopärane
 köögiviljapirukas,küpsetis,muna,taimetoit,lihtne,odav
 laetud friikad,hakkliha,peekon,ameerikapärane

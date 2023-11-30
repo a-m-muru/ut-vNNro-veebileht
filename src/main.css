@@ -1,18 +1,23 @@
 * {
     padding: 0;
     margin: 0;
+    --tumeroheline: #c6c78c;
+    --loheroosa: #e7c39c;
+    --kollaroheline: #e7df9c;
+    --heleroheline: #dee79c;
+    --hele: #efebd6;
 }
 
 html, body {
     /* height: 100%; */
-    background-color: burlywood;
+    background-color: var(--tumeroheline);
 }
 
 main {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background-color: azure;
+    background-color: var(--hele);
     height: 100%;
 }
 
@@ -36,7 +41,7 @@ p {
 
 .logo {
     height: 100px;
-    background-color: bisque;
+    background-color: var(loheroosa);
 }
 
 .peatekst {
