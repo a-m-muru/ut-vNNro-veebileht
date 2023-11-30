@@ -7,9 +7,22 @@ console.log(retseptipesa);
 
 // siia käivad retseptifailide nimed
 const retseptid = [
+    "ahjuköögiviljad",
+    "burgeri_takod",
+    "chili_con_carne",
     "kanapasta",
-    "naide"
+    "köögiviljapirukas",
+    "laetud_friikad",
+    "maapähklivõi_nuudlid",
+    "tatar_peekoniga",
+    "tuunikala_kauss",
+    "tuunikala_pasta"
 ]
+
+// ja siia sisse sildid
+const sildid = {
+
+}
 
 // abi: https://stackoverflow.com/questions/196498/how-do-i-load-the-contents-of-a-text-file-into-a-javascript-variable
 // Edward Z Yang ja Pharaoah Jardin
@@ -36,9 +49,39 @@ function retsept_pessa(retsept) {
     })
 }
 
+async function lae_sildid() {
+    try {
+        const vastus = await fetch("src/sildid.txt");
+        const andmed = await vastus.text();
+        let loik = andmed.split("\n");
+        loik.forEach(rida => {
+            let siserida = rida.split(",");
+            sildid[siserida[0]] = siserida.slice(1, siserida.length)
+        });
+    }
+    catch (viga) {
+        console.error("viga siltide laadimisel: ", viga)
+    }
+}
+
 function kuva_retsept(nimi) {
     retsept_pessa(lae_retsept(nimi));
 }
+
+function lae_retseptide_nupud() {
+    nk = document.getElementById("retseptinimekiri");
+    retseptid.forEach(retsept => {
+        nk.insertAdjacentHTML(
+            "beforeend",
+            `<li onclick="kuva_retsept('${retsept}')">${retsept.replaceAll("_", " ")}</li>`
+        )
+    });
+}
+
+lae_sildid();
+console.log(sildid)
+
+lae_retseptide_nupud();
 
 // testimine
 retsept_pessa(lae_retsept("kanapasta"))
