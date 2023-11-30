@@ -9,7 +9,8 @@
 - Sibul
 - Köömned 
 - Tšilli 
-- Paprika maitseaine 
+- Paprika maitseaine
+- Riis 
 
 ### Valmistamine
 - Keeda riis vastavalt juhistele
@@ -18,3 +19,5 @@
 - Lisa purgioad ja purustatud tomatid, maitsesta soola, pipra, tšilli, paprika maitseaine ning köömnetega
 - Lisa kastmesse natuke ketšupit magususe jaoks
 - Serveeri koos riisiga
+
+![Alt text](../pildid/Chiliconcarne.jpg)
