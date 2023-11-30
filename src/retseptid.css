@@ -1,4 +1,8 @@
 main {
+    width: 70%;
+}
+
+img {
     width: 60%;
 }
 
@@ -13,9 +17,21 @@ main {
     flex: 5;
 }
 
+.peateksti-ja-siltide-konteiner {
+    display: flex;
+}
+
 .peatekst {
     flex: 5;
     flex-direction: column;
+}
+
+.sildid {
+    flex: 4;
+    background-color: blanchedalmond;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .retseptinimekiri {
