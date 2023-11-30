@@ -16,3 +16,5 @@
 - Laota pirukapõhjale köögiviljad ning vala peale munasegu
 - Raputa peale riivjuust
 - Küpseta kuni tainas on kergelt pruun ja kerkinud ning muna on hüübinud
+
+![Alt text](../pildid/K%C3%B6%C3%B6giviljapirukas.jpeg)

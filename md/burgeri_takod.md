@@ -19,3 +19,4 @@
 - Pane tortilla pannile, hakklihaga pool allpool, ning küpseta kuni hakkliha on läbi küpsenud ja pruun.
 - Pööra tortilla ümber ning lisa juustu.
 - Kui juust on sulanud tõsta tortilla pannilt. Lisa jääsalat, paprika ning sibul. Lisa kaste ning voldi tortilla kokku.
+![Alt text](../pildid/Burgeritakod.jpg)

@@ -20,3 +20,4 @@
 - Siin võid asendada tuunikala näiteks lõhega ning lisandeid saab ka ise juurde mõelda näiteks kimchi või brokkoli
 
 
+![Alt text](../pildid/Tuunikalakauss.jpg)

@@ -14,3 +14,5 @@
 - Lisa pannile spagetid ja ka natukene keeduvett, millest tekib kaste
 - Maitsesta soola ja pipraga
 - Serveeri koos parmesaniga
+
+![Alt text](../pildid/Tuunikalapasta.jpg)

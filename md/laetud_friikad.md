@@ -16,3 +16,5 @@
 - Küpseta friikartulid vastavalt pakil olevatele juhistele
 - Tükelda tomat ja sibul väikesteks kuubikuteks ning maitseta oliiviõli, soola ja pipraga (võid lisada ka laimimahla)
 - Paar minutit enne friikartulite valmimist lisa nende peale riivjuust
+
+![Alt text](../pildid/Laetudfriikad.jpg)
