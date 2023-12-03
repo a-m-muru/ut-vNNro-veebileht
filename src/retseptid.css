@@ -19,6 +19,12 @@
     display: flex;
 }
 
+
+.retseptinimekirja-ja-siltide-konteiner {
+    display: flex;
+    flex-direction: row;
+}
+
 .peatekst {
     flex: 1;
     flex-direction: column;
