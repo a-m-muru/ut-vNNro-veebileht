@@ -67,6 +67,7 @@ async function lae_sildid() {
         const andmed = await vastus.text();
         let loik = andmed.split("\n");
         loik.forEach(rida => {
+            // vältimaks igasuguse jama kogunemist sõnede lõppudesse
             rida = rida.trim();
             let siserida = rida.split(",");
             // rea esimesel kohal retsepti nimi, edasi selle sildid
