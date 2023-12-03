@@ -16,7 +16,7 @@ html, body {
 main {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 70%;
     background-color: var(--hele);
     height: 100%;
 }
@@ -42,8 +42,68 @@ p {
 .logo {
     height: 100px;
     background-color: var(loheroosa);
+    padding: 32px;
+}
+
+.logo > h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 56px;
 }
 
 .peatekst {
     padding: 16px;
+    background-color: var(--heleroheline);
+}
+
+/* siit algab koodijupp "Animated Underline Hover" css osa, mis pärineb leheküljelt codepen.io ning autoriks on Justin (kasutajanimi @jst)*/
+/*Siin tühistatakse varasemad kujundused ning valib fondi*/
+/* body,html { 
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    background: #000;
+  } */
+ul.menüü { /* Siin kujundatakse html failis oleva ul (unordered list) sisu + paigutab selle lehe keskele*/
+    margin: 15px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 100%;
+    text-align: center;
+    background-color: var(--loheroosa);
+}
+ul.menüü > li {  /* Siin kujundatakse eelneva listi elemente (display: table-cell paigutab elemendid horisontaalselt)*/
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+}
+ul.menüü > li > a { /* Siin muudetakse klikatavaid elemente (Esileht, Retseptid, Meist) andes neile värv, muutes need suurteks tähtedeks jne*/
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+ul.menüü > li > a:after { /* Siin luuakse joon, mis ilmub kui hiirega elementide peal hõljuda */
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: var(--tumeroheline);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+ul.menüü > li > a:hover:after { 
+    width: 100%; 
+    left: 0; 
+} /*See osa võimaldab elementidel muutuda vastavalt akna suurusele, ehk kui aken on väiksem siis elemendid on ka väiksemad*/
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
 }

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sacramento">
     <link rel="stylesheet" href="src/main.css">
     <link rel="stylesheet" href="src/retseptid.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
@@ -11,7 +13,15 @@
 </head>
 <body>
     <main>
-        <div class="logo"></div>
+        <div class="logo">
+            <h1>vNNro</h1>
+        </div>
+        <!--See koodijupp "Animated Underline Hover" pärineb leheküljelt codepen.io ning autoriks on Justin (kasutajanimi @jst)-->
+        <ul class="menüü"> <!--ul on unordered list-->
+            <li><a href="index.html">Esileht</a></li> <!--li näitab, et element on listi osa-->
+            <li><a href="retseptid.html">Retseptid</a></li> <!--href näitab asukohta ja # märgistab lehe ülemist osa-->
+            <li><a href="about.html">Meist</a></li> <!--<a> sümboliseerib klikitavat teksti või pilti-->
+        </ul>
         <div class="konteiner">
             <div class="retseptinimekiri">
                 <ul id="retseptinimekiri">
@@ -21,11 +31,15 @@
             <div class="tekstikonteiner">
                 <div class="peateksti-ja-siltide-konteiner">
                     <div class="peatekst">
+                        <br>
                         <h1>Retseptid</h1>
                         <p>Kasuta silte, et leida endale meelepärane retsept!</p>
                     </div>
                     <div class="sildid" id="sildid">
-                        <div class="sildid-pealkiri">Sildid</div>
+                        <div class="sildid-pealkiri">
+                            <br>
+                            <p>Sildid</p>
+                        </div>
                         
                     </div>
                 </div>
