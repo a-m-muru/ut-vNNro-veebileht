@@ -94,7 +94,7 @@ ul.menüü > li > a:after { /* Siin luuakse joon, mis ilmub kui hiirega elementi
     height: 2px;
     left: 50%;
     position: absolute;
-    background: var(--tumeroheline);
+    background: var(--hele);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
