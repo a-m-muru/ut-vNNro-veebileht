@@ -5,7 +5,7 @@
 - Oliiviõli, maitseained
 - Küüslauk
 
-![Alt text](/pildid/Ahjuk%C3%B6%C3%B6giviljad.jpg)
+![Alt text](pildid/Ahjuk%C3%B6%C3%B6giviljad.jpg)
 
 ### Valmistamine
 - Pane ahi 200° peale sooja.

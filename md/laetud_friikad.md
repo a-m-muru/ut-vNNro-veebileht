@@ -10,7 +10,7 @@
 - Sibul
 - riivjuust
 
-![Alt text](/pildid/Laetudfriikad.jpg)
+![Alt text](pildid/Laetudfriikad.jpg)
 
 ### Valmistamine
 - Prae pannil peekon kuni see on krõbe, seejärel pane see paberrätikule nõrguma

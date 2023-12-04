@@ -11,7 +11,7 @@
 - Ketšup
 - Küüslauk
 
-![Alt text](/pildid/Burgeritakod.jpg)
+![Alt text](pildid/Burgeritakod.jpg)
 
 ### Valmistamine:
 - Maitsesta hakkliha soola, pipra, küüslaugu ning muu meelepärasega.

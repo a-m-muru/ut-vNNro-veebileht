@@ -11,7 +11,7 @@
 - Sojakaste
 - Sriracha kaste
 
-![Alt text](/pildid/Tuunikalakauss.jpg)
+![Alt text](pildid/Tuunikalakauss.jpg)
 
 ### Valmistamine
 - Keeda riis vastavalt pakil olevatele juhistele

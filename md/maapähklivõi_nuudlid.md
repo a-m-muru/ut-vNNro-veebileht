@@ -10,7 +10,7 @@
 - Sriracha
 - Ingver 
 
-![Alt text](/pildid/Maap%C3%A4hkliv%C3%B5inuudlid.jpg)
+![Alt text](pildid/Maap%C3%A4hkliv%C3%B5inuudlid.jpg)
 
 ### Valmistamine
 - Pane keevasse ja soolaga maitsestatud vette brokkoli
