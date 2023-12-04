@@ -41,7 +41,7 @@ p {
 
 .logo {
     height: 100px;
-    background-color: var(loheroosa);
+    background-color: var(--loheroosa);
     padding: 32px;
 }
 
