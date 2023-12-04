@@ -107,3 +107,19 @@ ul.menüü > li > a:hover:after {
         margin-top: 40px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+
+    ul.menüü {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

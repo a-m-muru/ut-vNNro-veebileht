@@ -101,8 +101,10 @@
 }
 
 @media only screen and (max-width: 600px) {
-    main {
-        width: 100%;
+
+    .silt {
+        height: auto;
+        padding-top: 2px;
     }
 
     .konteiner {
