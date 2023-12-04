@@ -9,7 +9,7 @@
 - 4 muna 
 - Piim 
 
-![Alt text](../pildid/K%C3%B6%C3%B6giviljapirukas.jpeg)
+![Alt text](/pildid/K%C3%B6%C3%B6giviljapirukas.jpeg)
 
 ### Valmistamine
 - Piruka põhjaks küpseta taigen vastavalt juhistele

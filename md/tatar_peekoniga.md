@@ -6,7 +6,7 @@
 - Hapukoor
 - Roheline sibul
 
-![Alt text](../pildid/Tatarpeekoniga.jpg)
+![Alt text](/pildid/Tatarpeekoniga.jpg)
 
 ### Valmistamine
 - Prae pannil peekon soola ja pipraga.

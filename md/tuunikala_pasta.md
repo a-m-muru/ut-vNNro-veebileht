@@ -7,7 +7,7 @@
 - Tšilli 
 - Küüslauk 
 
-![Alt text](../pildid/Tuunikalapasta.jpg)
+![Alt text](/pildid/Tuunikalapasta.jpg)
 
 ### Valmistamine
 - Keeda spagetid vastavalt pakil olevatele juhistele

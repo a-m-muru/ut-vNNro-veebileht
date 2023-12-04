@@ -6,7 +6,7 @@
 - Makaronid
 - Parmesan
 
-![Alt text](../pildid/Kanapasta.jpg)
+![Alt text](/pildid/Kanapasta.jpg)
 
 ### Valmistamine
 

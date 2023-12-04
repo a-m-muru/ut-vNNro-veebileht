@@ -12,7 +12,7 @@
 - Paprika maitseaine
 - Riis 
 
-![Alt text](../pildid/Chiliconcarne.jpg)
+![Alt text](/pildid/Chiliconcarne.jpg)
 
 ### Valmistamine
 - Keeda riis vastavalt juhistele
